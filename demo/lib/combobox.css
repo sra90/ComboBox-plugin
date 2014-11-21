@@ -1,0 +1,46 @@
+.c-box-dropdown{
+  position: absolute;
+  list-style-type: none;
+  background-color: white;
+  padding: 0;
+  box-sizing: border-box;
+  left: 0;
+  line-height: initial;
+  margin: 0;
+  padding: 0;
+  z-index: 999;
+}
+
+.c-box-dropdown li{
+  border: 1px solid #ccc;
+  border-top: 0px;
+  padding: 0px 2px;
+}
+
+.c-box-dropdown li:hover
+{
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.c-box{
+    position: relative;
+}
+
+.c-box .carat{
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000;
+  display: inline-block;
+  position: relative;
+  right: 0.8em;
+  bottom: 2px;
+}
+
+.c-box .carat:hover{
+
+  cursor: pointer;
+  background-color: #eee;
+}
