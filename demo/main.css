@@ -1,0 +1,12 @@
+form{
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+input{
+	border-width: 1px;
+	border-radius: 3px;
+	max-width: 95%;
+}
